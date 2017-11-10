@@ -71,7 +71,7 @@ map <leader>a :call RunAllSpecs()<CR>
 syntax on
 set number             " Turn this off for copy with 'set nonumber'
 if exists('+colorcolumn') " Marks the 80th character column
-  set colorcolumn=80
+  set colorcolumn=120
 endif
 set listchars=tab:▸\ ,eol:¬
 set showbreak=↪
