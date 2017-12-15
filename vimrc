@@ -106,7 +106,7 @@ set showmode
 " Forced file types
 "------------------------------------------------------------------------------
 
-"au! BufRead,BufNewFile *.pp  setfiletype ruby "for Puppet
+au! BufRead,BufNewFile *.jst.ejs  setfiletype html "for Puppet
 
 "==============================================================================
 " If none found file types
